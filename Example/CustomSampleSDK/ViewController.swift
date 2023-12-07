@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import CustomSampleSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let valide = EmailValidator.validateEmail(email: "abcgmail.com")
+        print("Valide \(valide)")
     }
 
     override func didReceiveMemoryWarning() {

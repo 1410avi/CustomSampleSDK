@@ -1,0 +1,16 @@
+PODS:
+  - CustomSampleSDK (0.1.0)
+
+DEPENDENCIES:
+  - CustomSampleSDK (from `../`)
+
+EXTERNAL SOURCES:
+  CustomSampleSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomSampleSDK: e6656ba3d6f7ddf6e451e6a9c3b836a6d028ff97
+
+PODFILE CHECKSUM: 165dcd2301934983f8595265fbbc3a8e1f9eaa64
+
+COCOAPODS: 1.14.2

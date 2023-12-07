@@ -1,0 +1,6 @@
+framework module CustomSampleSDK {
+  umbrella header "CustomSampleSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
