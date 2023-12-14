@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6ED1429C4DE180A78FACF3BB /* Pods_CustomSampleSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F28D9AA755EBA5AEA4B12B1 /* Pods_CustomSampleSDK_Tests.framework */; };
-		CBEA636CEFAAA39278F72EC8 /* Pods_CustomSampleSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A75C7FD6281E367F6ED9ABF /* Pods_CustomSampleSDK_Example.framework */; };
+		AF89B09AEA330089EFFEAA79 /* Pods_CustomSampleSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F28D9AA755EBA5AEA4B12B1 /* Pods_CustomSampleSDK_Tests.framework */; };
+		B3DA3F886807B3942BDBB71E /* Pods_CustomSampleSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A75C7FD6281E367F6ED9ABF /* Pods_CustomSampleSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,15 @@
 		9F28D9AA755EBA5AEA4B12B1 /* Pods_CustomSampleSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSampleSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2AE56FBAC5FF60158D2C56 /* Pods-CustomSampleSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSampleSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomSampleSDK_Example/Pods-CustomSampleSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E04DD6D66653FAF1C7C073E8 /* Pods-CustomSampleSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSampleSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomSampleSDK_Example/Pods-CustomSampleSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E18A58AF2B2A122B005C8C9F /* CustomSampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomSampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18A58B72B2AE90A005C8C9F /* CashfreeAnalyticsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreeAnalyticsSDK.xcframework; path = Pods/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK.xcframework; sourceTree = "<group>"; };
+		E18A58B82B2AE90A005C8C9F /* CashfreePG.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreePG.xcframework; path = Pods/CashfreePG/CashfreePG.xcframework; sourceTree = "<group>"; };
+		E18A58B92B2AE90A005C8C9F /* CashfreePGCoreSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreePGCoreSDK.xcframework; path = Pods/CashfreePGCoreSDK/CashfreePGCoreSDK.xcframework; sourceTree = "<group>"; };
+		E18A58BA2B2AE90A005C8C9F /* CashfreePGUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreePGUISDK.xcframework; path = Pods/CashfreePGUISDK/CashfreePGUISDK.xcframework; sourceTree = "<group>"; };
+		E18A58BB2B2AE90A005C8C9F /* CFNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CFNetworkSDK.xcframework; path = Pods/CFNetworkSDK/CFNetworkSDK.xcframework; sourceTree = "<group>"; };
+		E18A58D12B2AE9C1005C8C9F /* CustomSampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomSampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18A58E12B2AEAA9005C8C9F /* CustomSampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomSampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18A58FA2B2AEC61005C8C9F /* CustomSampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CustomSampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEA636CEFAAA39278F72EC8 /* Pods_CustomSampleSDK_Example.framework in Frameworks */,
+				B3DA3F886807B3942BDBB71E /* Pods_CustomSampleSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED1429C4DE180A78FACF3BB /* Pods_CustomSampleSDK_Tests.framework in Frameworks */,
+				AF89B09AEA330089EFFEAA79 /* Pods_CustomSampleSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,15 @@
 		5357453A2D2806089A336C83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E18A58FA2B2AEC61005C8C9F /* CustomSampleSDK.framework */,
+				E18A58E12B2AEAA9005C8C9F /* CustomSampleSDK.framework */,
+				E18A58D12B2AE9C1005C8C9F /* CustomSampleSDK.framework */,
+				E18A58B72B2AE90A005C8C9F /* CashfreeAnalyticsSDK.xcframework */,
+				E18A58B82B2AE90A005C8C9F /* CashfreePG.xcframework */,
+				E18A58B92B2AE90A005C8C9F /* CashfreePGCoreSDK.xcframework */,
+				E18A58BA2B2AE90A005C8C9F /* CashfreePGUISDK.xcframework */,
+				E18A58BB2B2AE90A005C8C9F /* CFNetworkSDK.xcframework */,
+				E18A58AF2B2A122B005C8C9F /* CustomSampleSDK.framework */,
 				5A75C7FD6281E367F6ED9ABF /* Pods_CustomSampleSDK_Example.framework */,
 				9F28D9AA755EBA5AEA4B12B1 /* Pods_CustomSampleSDK_Tests.framework */,
 			);
@@ -207,15 +225,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JG3A4WJL8A;
 						LastSwiftMigration = "";
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JG3A4WJL8A;
 						LastSwiftMigration = "";
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -378,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,14 +407,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,14 +464,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,8 +506,9 @@
 			baseConfigurationReference = BC2AE56FBAC5FF60158D2C56 /* Pods-CustomSampleSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JG3A4WJL8A;
 				INFOPLIST_FILE = CustomSampleSDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,8 +523,9 @@
 			baseConfigurationReference = E04DD6D66653FAF1C7C073E8 /* Pods-CustomSampleSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JG3A4WJL8A;
 				INFOPLIST_FILE = CustomSampleSDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -509,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6500A787926FDF63E0C98389 /* Pods-CustomSampleSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JG3A4WJL8A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -518,6 +549,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,11 +563,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BDFFECCF81E1125BADEA256 /* Pods-CustomSampleSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JG3A4WJL8A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

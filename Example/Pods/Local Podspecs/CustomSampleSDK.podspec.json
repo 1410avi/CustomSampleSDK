@@ -1,8 +1,8 @@
 {
   "name": "CustomSampleSDK",
-  "version": "0.1.0",
-  "summary": "A short description of CustomSampleSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "CustomSampleSDK is a Sample testing sdk for the first time.",
+  "description": "'CustomSampleSDK is a Sample testing sdk for the first time, through which any one can learn'",
   "homepage": "https://github.com/1410avi/CustomSampleSDK",
   "license": {
     "type": "MIT",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/1410avi/CustomSampleSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "CustomSampleSDK/Classes/**/*"
+  "source_files": "CustomSampleSDK/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

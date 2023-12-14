@@ -1,0 +1,1378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		32266CC76CA974DC28672C80924B4378 /* CFNetworkSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2B94D2AA4C2907B52088A40F9DC2E05 /* Build configuration list for PBXAggregateTarget "CFNetworkSDK" */;
+			buildPhases = (
+				60808CB21E1149010EC2830CC85C3E1F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = CFNetworkSDK;
+		};
+		49274DFBB344E7C19D408A86745C5224 /* CashfreePG */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 03CFBBE2FE90812CF632E56C99720672 /* Build configuration list for PBXAggregateTarget "CashfreePG" */;
+			buildPhases = (
+				6F0E77122DA18BC6659DF8CEED06A551 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				B5E38370E4960EF762EA3252BA60EAC6 /* PBXTargetDependency */,
+			);
+			name = CashfreePG;
+		};
+		4AF633B23960BBF278E08C0652E9465B /* CashfreePGCoreSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ECDCE628B8A192A9AEAF56067AE664A /* Build configuration list for PBXAggregateTarget "CashfreePGCoreSDK" */;
+			buildPhases = (
+				0D4916A10B23AAB9A41B97F72B639D2A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				016B1957CAEFE1A56D3AB6B8CEA1FE77 /* PBXTargetDependency */,
+			);
+			name = CashfreePGCoreSDK;
+		};
+		684F3DFABF8D283354B97A5625178BA8 /* CashfreeAnalyticsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC2B976C918B395020DC05B19A56B562 /* Build configuration list for PBXAggregateTarget "CashfreeAnalyticsSDK" */;
+			buildPhases = (
+				B05114688CDDC2583BFCB022B458BA74 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				70F850A192D0DB0739C8B30E690047D1 /* PBXTargetDependency */,
+			);
+			name = CashfreeAnalyticsSDK;
+		};
+		7EA69CDA8EB50641DFFEC1D930A028D6 /* CashfreePGUISDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89440E8478E372B27FB08ECA2098DB88 /* Build configuration list for PBXAggregateTarget "CashfreePGUISDK" */;
+			buildPhases = (
+				46728FB73C8F2FCF66DD716AFFF685A4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				D00D5630DCA6064DA65C7088B8CF3439 /* PBXTargetDependency */,
+			);
+			name = CashfreePGUISDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		61853195A5D03BD58984F6372B2BF8C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		968C3A4272E5E06BA867ABB588CC6FAC /* Pods-CustomSampleSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B421AC45748F182490930587E3F9E59 /* Pods-CustomSampleSDK-dummy.m */; };
+		AFA3F8CB275E4378FCB96C32DCC7D414 /* Pods-Pods-CustomSampleSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E51188B697C2C0DDA42DC4CE2E948 /* Pods-Pods-CustomSampleSDK_Tests-dummy.m */; };
+		B028C0A4D753F0DFC61FE58BD4D61D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB558C93C029E58767206DAAC251104F /* Pods-CustomSampleSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C7F89C7396845E0B436A4C21AA3D3 /* Pods-CustomSampleSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A60A8D5A39CE3707586E79E87ECD2F /* Pods-Pods-CustomSampleSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DE81A07ADCD4E7920D4A6EEE7704D /* Pods-Pods-CustomSampleSDK_Example-dummy.m */; };
+		D4B8FFC7303600339553E16F734E5071 /* Pods-Pods-CustomSampleSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A74E21CF84E3AF5B2E7030CDFB51715C /* Pods-Pods-CustomSampleSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E38AF0D2958DF821EC158F2A49FC4341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F080F44F1FFF956E6D6F1CAA1B0F6327 /* Pods-Pods-CustomSampleSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDF206240CA0FB98ADDD1156BC141D7 /* Pods-Pods-CustomSampleSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02650C12CD830DD9FC079A165E27FCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF633B23960BBF278E08C0652E9465B;
+			remoteInfo = CashfreePGCoreSDK;
+		};
+		03BC1F5278EA97F90746DDD259F94C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA69CDA8EB50641DFFEC1D930A028D6;
+			remoteInfo = CashfreePGUISDK;
+		};
+		535177E5BACD8B6C1F5B8081D997AE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684F3DFABF8D283354B97A5625178BA8;
+			remoteInfo = CashfreeAnalyticsSDK;
+		};
+		55E04F21E1DE887F559373CEB0F44F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49274DFBB344E7C19D408A86745C5224;
+			remoteInfo = CashfreePG;
+		};
+		875F55D5491C741BE9AC2622253F6AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF633B23960BBF278E08C0652E9465B;
+			remoteInfo = CashfreePGCoreSDK;
+		};
+		91E82DB573BB0328323D34F8A0801098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32266CC76CA974DC28672C80924B4378;
+			remoteInfo = CFNetworkSDK;
+		};
+		B7EC3084056C04F3E4B6A84EF6348EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684F3DFABF8D283354B97A5625178BA8;
+			remoteInfo = CashfreeAnalyticsSDK;
+		};
+		F7EC165857699DA890972DF1E9C84CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA69CDA8EB50641DFFEC1D930A028D6;
+			remoteInfo = CashfreePGUISDK;
+		};
+		FE403F7C039208F2AE96812F2C869F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32266CC76CA974DC28672C80924B4378;
+			remoteInfo = CFNetworkSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0022BE9FBAE8F8702D534E72F3014E92 /* CashfreePGUISDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePGUISDK.release.xcconfig; sourceTree = "<group>"; };
+		09D87E43BF4698DB24C7E47B990348B3 /* Pods-CustomSampleSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSampleSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		0A81618D200AE3139D42ECB651C03DFE /* CashfreePGCoreSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CashfreePGCoreSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		12A2FA09FF5448D7784C225336EB1CD1 /* CashfreePG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePG.release.xcconfig; sourceTree = "<group>"; };
+		16A241D12092AE689F0D419C591A0135 /* Pods-Pods-CustomSampleSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pods-CustomSampleSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		1FB2154F80960C3C290F4731E85F689B /* CashfreePG-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CashfreePG-xcframeworks.sh"; sourceTree = "<group>"; };
+		287A8E0C9A4A0EF9DEE03A9483CF4B1F /* CFNetworkSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CFNetworkSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		28A857EA12A374516CFA349DA93F8D8E /* CashfreePGCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePGCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
+		33AF3D5A34CD0075553F9046DD81F50B /* CashfreePGUISDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePGUISDK.debug.xcconfig; sourceTree = "<group>"; };
+		34F984B66CDC7E4268FF550DAECD6F33 /* Pods-Pods-CustomSampleSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-CustomSampleSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36FEE295F244E318D84362E135B425FB /* CashfreePG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePG.debug.xcconfig; sourceTree = "<group>"; };
+		3AAA8E82B9F719F1A8BCC6C4C1E333B9 /* CashfreeAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreeAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4DD1B908F088B3BB1A2E6199395A5CC0 /* CashfreePGCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CashfreePGCoreSDK.xcframework; sourceTree = "<group>"; };
+		520DE81A07ADCD4E7920D4A6EEE7704D /* Pods-Pods-CustomSampleSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pods-CustomSampleSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		5B421AC45748F182490930587E3F9E59 /* Pods-CustomSampleSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomSampleSDK-dummy.m"; sourceTree = "<group>"; };
+		5C9B7005961962F352B7E460EC4B2AEF /* Pods-Pods-CustomSampleSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pods-CustomSampleSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F3C521A65D35DC99BBB6CA71B7E2149 /* Pods-Pods-CustomSampleSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pods-CustomSampleSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		626AD6049BF28ACDCB3C475211FF623F /* Pods-CustomSampleSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSampleSDK.release.xcconfig"; sourceTree = "<group>"; };
+		700565990365EAE4D7B86A9FFAB402AE /* CashfreePG.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CashfreePG.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732E51188B697C2C0DDA42DC4CE2E948 /* Pods-Pods-CustomSampleSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pods-CustomSampleSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		8203C764FD2708978090B213BB9DB85D /* Pods-Pods-CustomSampleSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pods-CustomSampleSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		848C0442CBD928DA155A729414B5F389 /* CashfreePGUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CashfreePGUISDK.xcframework; sourceTree = "<group>"; };
+		8774F0B02768AB4D2B77F9952AB49E90 /* Pods-Pods-CustomSampleSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pods-CustomSampleSDK_Example"; path = Pods_Pods_CustomSampleSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AC114D2B82AEBDD9FED4BBE7014AB1 /* Pods-Pods-CustomSampleSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pods-CustomSampleSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		8B0C446571C552786303978165BC9C3E /* CFNetworkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFNetworkSDK.debug.xcconfig; sourceTree = "<group>"; };
+		8EB24687C96E30E8BDE91C4909DA802D /* CashfreePGUISDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CashfreePGUISDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		940C7F89C7396845E0B436A4C21AA3D3 /* Pods-CustomSampleSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomSampleSDK-umbrella.h"; sourceTree = "<group>"; };
+		9828829AF990915BCD09DAB23BB9AC36 /* Pods-Pods-CustomSampleSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pods-CustomSampleSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9884AF31CE181BEB0328FD24F65AD4E9 /* Pods-CustomSampleSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomSampleSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B7F6C91061DB2C8617ED27ED692B402 /* Pods-Pods-CustomSampleSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pods-CustomSampleSDK_Tests"; path = Pods_Pods_CustomSampleSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DB489A95F2D2D6D5261EEA739D8B32 /* Pods-CustomSampleSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSampleSDK-Info.plist"; sourceTree = "<group>"; };
+		A74E21CF84E3AF5B2E7030CDFB51715C /* Pods-Pods-CustomSampleSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pods-CustomSampleSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		A7DCE232F5E4C7208AC790E2F69248BE /* CashfreePGCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreePGCoreSDK.release.xcconfig; sourceTree = "<group>"; };
+		A7F5ED2828BE78A7E4006287E94D44D0 /* Pods-CustomSampleSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CustomSampleSDK"; path = Pods_CustomSampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A822501E208C4B3D942895D31A9B2D74 /* CashfreeAnalyticsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CashfreeAnalyticsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		B4E939AE7C9279CC0B0F8A87C64D6A33 /* Pods-CustomSampleSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSampleSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6416097F7AD57CA11E14DF856913FA8 /* Pods-Pods-CustomSampleSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pods-CustomSampleSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEA5D00AA3D7B15F967C058C6F9A24F9 /* Pods-Pods-CustomSampleSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-CustomSampleSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBDF206240CA0FB98ADDD1156BC141D7 /* Pods-Pods-CustomSampleSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pods-CustomSampleSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CFB8192E6764447C3A95812519A36908 /* CashfreeAnalyticsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CashfreeAnalyticsSDK.xcframework; sourceTree = "<group>"; };
+		D07512D74AC6939B817F718C97071A47 /* Pods-CustomSampleSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomSampleSDK.modulemap"; sourceTree = "<group>"; };
+		DA236CA4EC5EFE32F70FE3DD3C6D9C7F /* CFNetworkSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CFNetworkSDK.xcframework; sourceTree = "<group>"; };
+		DAEA00E0B894F9A1E08B22DC7DE5F764 /* CashfreeAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CashfreeAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
+		DBE3DB9D72A5462DE4CF41E1C8C0AE7D /* Pods-Pods-CustomSampleSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pods-CustomSampleSDK_Example.modulemap"; sourceTree = "<group>"; };
+		E170D349CD35A16FF2117213406DB88B /* CFNetworkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFNetworkSDK.release.xcconfig; sourceTree = "<group>"; };
+		E240AB68FC092C11ADAF90C6A4F2CBC3 /* Pods-Pods-CustomSampleSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-CustomSampleSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFE08FE2313CA047A16A14598A5D134 /* Pods-Pods-CustomSampleSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pods-CustomSampleSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6EEDD1B5625E9F2B549168D19B06FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B028C0A4D753F0DFC61FE58BD4D61D10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2D6D9BCC8FA10972EF96536A944C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38AF0D2958DF821EC158F2A49FC4341 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F31D0AF8785D6B84E44719AC33440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61853195A5D03BD58984F6372B2BF8C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF99814138FCFB41F42AFB38145F2FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A81618D200AE3139D42ECB651C03DFE /* CashfreePGCoreSDK-xcframeworks.sh */,
+				28A857EA12A374516CFA349DA93F8D8E /* CashfreePGCoreSDK.debug.xcconfig */,
+				A7DCE232F5E4C7208AC790E2F69248BE /* CashfreePGCoreSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CashfreePGCoreSDK";
+			sourceTree = "<group>";
+		};
+		1C5208097A4C551A2CA895FDF1AF4098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8192E6764447C3A95812519A36908 /* CashfreeAnalyticsSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24596F98C84C554723497FE344652865 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A822501E208C4B3D942895D31A9B2D74 /* CashfreeAnalyticsSDK-xcframeworks.sh */,
+				3AAA8E82B9F719F1A8BCC6C4C1E333B9 /* CashfreeAnalyticsSDK.debug.xcconfig */,
+				DAEA00E0B894F9A1E08B22DC7DE5F764 /* CashfreeAnalyticsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CashfreeAnalyticsSDK";
+			sourceTree = "<group>";
+		};
+		2767750971EF3CB440EA2167EFA44FAA /* CashfreeAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1C5208097A4C551A2CA895FDF1AF4098 /* Frameworks */,
+				24596F98C84C554723497FE344652865 /* Support Files */,
+			);
+			name = CashfreeAnalyticsSDK;
+			path = CashfreeAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		30C73172DBC4E3E5C1E53AA3A3F52F1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB2154F80960C3C290F4731E85F689B /* CashfreePG-xcframeworks.sh */,
+				36FEE295F244E318D84362E135B425FB /* CashfreePG.debug.xcconfig */,
+				12A2FA09FF5448D7784C225336EB1CD1 /* CashfreePG.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CashfreePG";
+			sourceTree = "<group>";
+		};
+		3EAC992FB5DC0AC99D67F379CFD240EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				287A8E0C9A4A0EF9DEE03A9483CF4B1F /* CFNetworkSDK-xcframeworks.sh */,
+				8B0C446571C552786303978165BC9C3E /* CFNetworkSDK.debug.xcconfig */,
+				E170D349CD35A16FF2117213406DB88B /* CFNetworkSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CFNetworkSDK";
+			sourceTree = "<group>";
+		};
+		44801712E016A92E711837C69DAD5074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2767750971EF3CB440EA2167EFA44FAA /* CashfreeAnalyticsSDK */,
+				71910443B9D131A969F0AA348A6FAE36 /* CashfreePG */,
+				B276B92B218DAE5D03CA7FF0E322D3A7 /* CashfreePGCoreSDK */,
+				78512DD55A6228EC274A0312759C8E6D /* CashfreePGUISDK */,
+				6B8D1FCA8EDF0B40CE12829E373C64EE /* CFNetworkSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		537F99A8A99C5B4F887569CB1617177C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD1B908F088B3BB1A2E6199395A5CC0 /* CashfreePGCoreSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B6611BC97A243F7D108F80A0C8424F4 /* Pods-Pods-CustomSampleSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3C521A65D35DC99BBB6CA71B7E2149 /* Pods-Pods-CustomSampleSDK_Tests.modulemap */,
+				8203C764FD2708978090B213BB9DB85D /* Pods-Pods-CustomSampleSDK_Tests-acknowledgements.markdown */,
+				B6416097F7AD57CA11E14DF856913FA8 /* Pods-Pods-CustomSampleSDK_Tests-acknowledgements.plist */,
+				732E51188B697C2C0DDA42DC4CE2E948 /* Pods-Pods-CustomSampleSDK_Tests-dummy.m */,
+				89AC114D2B82AEBDD9FED4BBE7014AB1 /* Pods-Pods-CustomSampleSDK_Tests-Info.plist */,
+				CBDF206240CA0FB98ADDD1156BC141D7 /* Pods-Pods-CustomSampleSDK_Tests-umbrella.h */,
+				34F984B66CDC7E4268FF550DAECD6F33 /* Pods-Pods-CustomSampleSDK_Tests.debug.xcconfig */,
+				BEA5D00AA3D7B15F967C058C6F9A24F9 /* Pods-Pods-CustomSampleSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-Pods-CustomSampleSDK_Tests";
+			path = "Target Support Files/Pods-Pods-CustomSampleSDK_Tests";
+			sourceTree = "<group>";
+		};
+		628F2412BB41A895A5BDB0AA17A67CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA236CA4EC5EFE32F70FE3DD3C6D9C7F /* CFNetworkSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8D1FCA8EDF0B40CE12829E373C64EE /* CFNetworkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				628F2412BB41A895A5BDB0AA17A67CD1 /* Frameworks */,
+				3EAC992FB5DC0AC99D67F379CFD240EC /* Support Files */,
+			);
+			name = CFNetworkSDK;
+			path = CFNetworkSDK;
+			sourceTree = "<group>";
+		};
+		71910443B9D131A969F0AA348A6FAE36 /* CashfreePG */ = {
+			isa = PBXGroup;
+			children = (
+				DAE06985D9023D1D35FC8238C0D2FBF8 /* Frameworks */,
+				30C73172DBC4E3E5C1E53AA3A3F52F1C /* Support Files */,
+			);
+			name = CashfreePG;
+			path = CashfreePG;
+			sourceTree = "<group>";
+		};
+		78512DD55A6228EC274A0312759C8E6D /* CashfreePGUISDK */ = {
+			isa = PBXGroup;
+			children = (
+				A421BE1749930E566B9F15BBF6E509B7 /* Frameworks */,
+				F890C317959907A9C96425BB79CBC4BA /* Support Files */,
+			);
+			name = CashfreePGUISDK;
+			path = CashfreePGUISDK;
+			sourceTree = "<group>";
+		};
+		A421BE1749930E566B9F15BBF6E509B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848C0442CBD928DA155A729414B5F389 /* CashfreePGUISDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6D1E034613F046C5D00AD908E8ABD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F5ED2828BE78A7E4006287E94D44D0 /* Pods-CustomSampleSDK */,
+				8774F0B02768AB4D2B77F9952AB49E90 /* Pods-Pods-CustomSampleSDK_Example */,
+				9B7F6C91061DB2C8617ED27ED692B402 /* Pods-Pods-CustomSampleSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B276B92B218DAE5D03CA7FF0E322D3A7 /* CashfreePGCoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				537F99A8A99C5B4F887569CB1617177C /* Frameworks */,
+				0CF99814138FCFB41F42AFB38145F2FD /* Support Files */,
+			);
+			name = CashfreePGCoreSDK;
+			path = CashfreePGCoreSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				44801712E016A92E711837C69DAD5074 /* Pods */,
+				AA6D1E034613F046C5D00AD908E8ABD6 /* Products */,
+				F2AC60CCBA33363D7DDF4BA45936C160 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE06985D9023D1D35FC8238C0D2FBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700565990365EAE4D7B86A9FFAB402AE /* CashfreePG.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81E81DE8F75078D18CE1CD754A80F7D /* Pods-Pods-CustomSampleSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3DB9D72A5462DE4CF41E1C8C0AE7D /* Pods-Pods-CustomSampleSDK_Example.modulemap */,
+				9828829AF990915BCD09DAB23BB9AC36 /* Pods-Pods-CustomSampleSDK_Example-acknowledgements.markdown */,
+				5C9B7005961962F352B7E460EC4B2AEF /* Pods-Pods-CustomSampleSDK_Example-acknowledgements.plist */,
+				520DE81A07ADCD4E7920D4A6EEE7704D /* Pods-Pods-CustomSampleSDK_Example-dummy.m */,
+				16A241D12092AE689F0D419C591A0135 /* Pods-Pods-CustomSampleSDK_Example-Info.plist */,
+				A74E21CF84E3AF5B2E7030CDFB51715C /* Pods-Pods-CustomSampleSDK_Example-umbrella.h */,
+				E240AB68FC092C11ADAF90C6A4F2CBC3 /* Pods-Pods-CustomSampleSDK_Example.debug.xcconfig */,
+				EEFE08FE2313CA047A16A14598A5D134 /* Pods-Pods-CustomSampleSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-Pods-CustomSampleSDK_Example";
+			path = "Target Support Files/Pods-Pods-CustomSampleSDK_Example";
+			sourceTree = "<group>";
+		};
+		E8D081EF9990489C27D1C74F68D7A1BA /* Pods-CustomSampleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D07512D74AC6939B817F718C97071A47 /* Pods-CustomSampleSDK.modulemap */,
+				9884AF31CE181BEB0328FD24F65AD4E9 /* Pods-CustomSampleSDK-acknowledgements.markdown */,
+				B4E939AE7C9279CC0B0F8A87C64D6A33 /* Pods-CustomSampleSDK-acknowledgements.plist */,
+				5B421AC45748F182490930587E3F9E59 /* Pods-CustomSampleSDK-dummy.m */,
+				A4DB489A95F2D2D6D5261EEA739D8B32 /* Pods-CustomSampleSDK-Info.plist */,
+				940C7F89C7396845E0B436A4C21AA3D3 /* Pods-CustomSampleSDK-umbrella.h */,
+				09D87E43BF4698DB24C7E47B990348B3 /* Pods-CustomSampleSDK.debug.xcconfig */,
+				626AD6049BF28ACDCB3C475211FF623F /* Pods-CustomSampleSDK.release.xcconfig */,
+			);
+			name = "Pods-CustomSampleSDK";
+			path = "Target Support Files/Pods-CustomSampleSDK";
+			sourceTree = "<group>";
+		};
+		F2AC60CCBA33363D7DDF4BA45936C160 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D081EF9990489C27D1C74F68D7A1BA /* Pods-CustomSampleSDK */,
+				E81E81DE8F75078D18CE1CD754A80F7D /* Pods-Pods-CustomSampleSDK_Example */,
+				5B6611BC97A243F7D108F80A0C8424F4 /* Pods-Pods-CustomSampleSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F890C317959907A9C96425BB79CBC4BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB24687C96E30E8BDE91C4909DA802D /* CashfreePGUISDK-xcframeworks.sh */,
+				33AF3D5A34CD0075553F9046DD81F50B /* CashfreePGUISDK.debug.xcconfig */,
+				0022BE9FBAE8F8702D534E72F3014E92 /* CashfreePGUISDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CashfreePGUISDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AD4D935D068470A0397E518A897E398 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F080F44F1FFF956E6D6F1CAA1B0F6327 /* Pods-Pods-CustomSampleSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE2F1DFBA1622C713ADC8B95F2E464A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8FFC7303600339553E16F734E5071 /* Pods-Pods-CustomSampleSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C803A8CFFBB32CAAB8E44394F9A34A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB558C93C029E58767206DAAC251104F /* Pods-CustomSampleSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1998B802D87A1606C60795149D935454 /* Pods-Pods-CustomSampleSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F8139298C07F70ABB8253F08DBAFBB /* Build configuration list for PBXNativeTarget "Pods-Pods-CustomSampleSDK_Example" */;
+			buildPhases = (
+				BBE2F1DFBA1622C713ADC8B95F2E464A /* Headers */,
+				F0236911E4CED34007D7D3EC0C8A4EE4 /* Sources */,
+				FA6F31D0AF8785D6B84E44719AC33440 /* Frameworks */,
+				008F75BC7A187479DC2511F5C2D22216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pods-CustomSampleSDK_Example";
+			productName = Pods_Pods_CustomSampleSDK_Example;
+			productReference = 8774F0B02768AB4D2B77F9952AB49E90 /* Pods-Pods-CustomSampleSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		34A7D9A75CA21E306018804854E8DB62 /* Pods-CustomSampleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC022E4E37E1F48B5FE50ECF39643349 /* Build configuration list for PBXNativeTarget "Pods-CustomSampleSDK" */;
+			buildPhases = (
+				C5C803A8CFFBB32CAAB8E44394F9A34A /* Headers */,
+				FEC450A2CA7EBC62E60DD39778F8D5B5 /* Sources */,
+				AD2D6D9BCC8FA10972EF96536A944C7A /* Frameworks */,
+				0C21DEDACEC0EEAA8A3E0115B563F8ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA69B58CB1D591C02AEBD59BBF94CA4A /* PBXTargetDependency */,
+				0982AC037C2B95809B86EA19C0C80CF9 /* PBXTargetDependency */,
+				5D883E7942827C5937051FA78F025C08 /* PBXTargetDependency */,
+				3582B8DB287597F7E11E24038CAF898B /* PBXTargetDependency */,
+				867EA538D8241D718112B96E815FC254 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomSampleSDK";
+			productName = Pods_CustomSampleSDK;
+			productReference = A7F5ED2828BE78A7E4006287E94D44D0 /* Pods-CustomSampleSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		9323A6D4AC14276B820CE8A2D07BF3DB /* Pods-Pods-CustomSampleSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD661783075DED1ABD6B8ACF928E65F4 /* Build configuration list for PBXNativeTarget "Pods-Pods-CustomSampleSDK_Tests" */;
+			buildPhases = (
+				9AD4D935D068470A0397E518A897E398 /* Headers */,
+				E402FA608D765784901DDEF9CFD88BF6 /* Sources */,
+				1A6EEDD1B5625E9F2B549168D19B06FF /* Frameworks */,
+				86F9B39663648E21BE407AA118365914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pods-CustomSampleSDK_Tests";
+			productName = Pods_Pods_CustomSampleSDK_Tests;
+			productReference = 9B7F6C91061DB2C8617ED27ED692B402 /* Pods-Pods-CustomSampleSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA6D1E034613F046C5D00AD908E8ABD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				684F3DFABF8D283354B97A5625178BA8 /* CashfreeAnalyticsSDK */,
+				49274DFBB344E7C19D408A86745C5224 /* CashfreePG */,
+				4AF633B23960BBF278E08C0652E9465B /* CashfreePGCoreSDK */,
+				7EA69CDA8EB50641DFFEC1D930A028D6 /* CashfreePGUISDK */,
+				32266CC76CA974DC28672C80924B4378 /* CFNetworkSDK */,
+				34A7D9A75CA21E306018804854E8DB62 /* Pods-CustomSampleSDK */,
+				1998B802D87A1606C60795149D935454 /* Pods-Pods-CustomSampleSDK_Example */,
+				9323A6D4AC14276B820CE8A2D07BF3DB /* Pods-Pods-CustomSampleSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008F75BC7A187479DC2511F5C2D22216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C21DEDACEC0EEAA8A3E0115B563F8ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9B39663648E21BE407AA118365914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4916A10B23AAB9A41B97F72B639D2A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CashfreePGCoreSDK/CashfreePGCoreSDK-xcframeworks.sh",
+				"${PODS_ROOT}/CashfreePGCoreSDK/CashfreePGCoreSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePGCoreSDK/CashfreePGCoreSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CashfreePGCoreSDK/CashfreePGCoreSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46728FB73C8F2FCF66DD716AFFF685A4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CashfreePGUISDK/CashfreePGUISDK-xcframeworks.sh",
+				"${PODS_ROOT}/CashfreePGUISDK/CashfreePGUISDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePGUISDK/CashfreePGUISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CashfreePGUISDK/CashfreePGUISDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60808CB21E1149010EC2830CC85C3E1F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CFNetworkSDK/CFNetworkSDK-xcframeworks.sh",
+				"${PODS_ROOT}/CFNetworkSDK/CFNetworkSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CFNetworkSDK/CFNetworkSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CFNetworkSDK/CFNetworkSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F0E77122DA18BC6659DF8CEED06A551 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CashfreePG/CashfreePG-xcframeworks.sh",
+				"${PODS_ROOT}/CashfreePG/CashfreePG.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePG/CashfreePG.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CashfreePG/CashfreePG-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B05114688CDDC2583BFCB022B458BA74 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK-xcframeworks.sh",
+				"${PODS_ROOT}/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E402FA608D765784901DDEF9CFD88BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA3F8CB275E4378FCB96C32DCC7D414 /* Pods-Pods-CustomSampleSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0236911E4CED34007D7D3EC0C8A4EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A60A8D5A39CE3707586E79E87ECD2F /* Pods-Pods-CustomSampleSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC450A2CA7EBC62E60DD39778F8D5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C3A4272E5E06BA867ABB588CC6FAC /* Pods-CustomSampleSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016B1957CAEFE1A56D3AB6B8CEA1FE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreeAnalyticsSDK;
+			target = 684F3DFABF8D283354B97A5625178BA8 /* CashfreeAnalyticsSDK */;
+			targetProxy = 535177E5BACD8B6C1F5B8081D997AE15 /* PBXContainerItemProxy */;
+		};
+		0982AC037C2B95809B86EA19C0C80CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreeAnalyticsSDK;
+			target = 684F3DFABF8D283354B97A5625178BA8 /* CashfreeAnalyticsSDK */;
+			targetProxy = B7EC3084056C04F3E4B6A84EF6348EA0 /* PBXContainerItemProxy */;
+		};
+		3582B8DB287597F7E11E24038CAF898B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreePGCoreSDK;
+			target = 4AF633B23960BBF278E08C0652E9465B /* CashfreePGCoreSDK */;
+			targetProxy = 02650C12CD830DD9FC079A165E27FCDB /* PBXContainerItemProxy */;
+		};
+		5D883E7942827C5937051FA78F025C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreePG;
+			target = 49274DFBB344E7C19D408A86745C5224 /* CashfreePG */;
+			targetProxy = 55E04F21E1DE887F559373CEB0F44F01 /* PBXContainerItemProxy */;
+		};
+		70F850A192D0DB0739C8B30E690047D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFNetworkSDK;
+			target = 32266CC76CA974DC28672C80924B4378 /* CFNetworkSDK */;
+			targetProxy = FE403F7C039208F2AE96812F2C869F31 /* PBXContainerItemProxy */;
+		};
+		867EA538D8241D718112B96E815FC254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreePGUISDK;
+			target = 7EA69CDA8EB50641DFFEC1D930A028D6 /* CashfreePGUISDK */;
+			targetProxy = 03BC1F5278EA97F90746DDD259F94C26 /* PBXContainerItemProxy */;
+		};
+		AA69B58CB1D591C02AEBD59BBF94CA4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFNetworkSDK;
+			target = 32266CC76CA974DC28672C80924B4378 /* CFNetworkSDK */;
+			targetProxy = 91E82DB573BB0328323D34F8A0801098 /* PBXContainerItemProxy */;
+		};
+		B5E38370E4960EF762EA3252BA60EAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreePGUISDK;
+			target = 7EA69CDA8EB50641DFFEC1D930A028D6 /* CashfreePGUISDK */;
+			targetProxy = F7EC165857699DA890972DF1E9C84CA9 /* PBXContainerItemProxy */;
+		};
+		D00D5630DCA6064DA65C7088B8CF3439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CashfreePGCoreSDK;
+			target = 4AF633B23960BBF278E08C0652E9465B /* CashfreePGCoreSDK */;
+			targetProxy = 875F55D5491C741BE9AC2622253F6AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049D375988551106A45440D57EF61625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DCE232F5E4C7208AC790E2F69248BE /* CashfreePGCoreSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15738C2BDC8FBA0833EDC629AAB435E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA5D00AA3D7B15F967C058C6F9A24F9 /* Pods-Pods-CustomSampleSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Tests/Pods-Pods-CustomSampleSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Tests/Pods-Pods-CustomSampleSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		340D9C86145AD0D659EBA0F5E2D3E8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626AD6049BF28ACDCB3C475211FF623F /* Pods-CustomSampleSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSampleSDK/Pods-CustomSampleSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSampleSDK/Pods-CustomSampleSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C7BC4F927C54215CEC75D1EF4580A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F984B66CDC7E4268FF550DAECD6F33 /* Pods-Pods-CustomSampleSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Tests/Pods-Pods-CustomSampleSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Tests/Pods-Pods-CustomSampleSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59C71DE22A1681E6AF4F4DBC8BEB1157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D87E43BF4698DB24C7E47B990348B3 /* Pods-CustomSampleSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSampleSDK/Pods-CustomSampleSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSampleSDK/Pods-CustomSampleSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7043FB470EF392CCBEA3FC37873D24C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A857EA12A374516CFA349DA93F8D8E /* CashfreePGCoreSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6B39CD23089CC889803ED2D617049C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A2FA09FF5448D7784C225336EB1CD1 /* CashfreePG.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F9E21B8FC06A6D1FF214BAF6F251013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AF3D5A34CD0075553F9046DD81F50B /* CashfreePGUISDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986B3C2B8CECE5471DCD506E57F296C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E170D349CD35A16FF2117213406DB88B /* CFNetworkSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A772815AF690C18EBF26DA5EC4CF2786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEA00E0B894F9A1E08B22DC7DE5F764 /* CashfreeAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CC96106F4CBE5930CFA5E843D9585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAA8E82B9F719F1A8BCC6C4C1E333B9 /* CashfreeAnalyticsSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49047EAED2D95E2DEC92D425EEA2A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFE08FE2313CA047A16A14598A5D134 /* Pods-Pods-CustomSampleSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Example/Pods-Pods-CustomSampleSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Example/Pods-Pods-CustomSampleSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4BB2A0B72FC9971BD5132899E1891F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E240AB68FC092C11ADAF90C6A4F2CBC3 /* Pods-Pods-CustomSampleSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Example/Pods-Pods-CustomSampleSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pods-CustomSampleSDK_Example/Pods-Pods-CustomSampleSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2879AF5AC529FB2801942F67C61AC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0C446571C552786303978165BC9C3E /* CFNetworkSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E62363A8A16EAC0B0202080D60354093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FEE295F244E318D84362E135B425FB /* CashfreePG.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8692F4DFD54D81EF08A6852B8FF4188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0022BE9FBAE8F8702D534E72F3014E92 /* CashfreePGUISDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CFBBE2FE90812CF632E56C99720672 /* Build configuration list for PBXAggregateTarget "CashfreePG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62363A8A16EAC0B0202080D60354093 /* Debug */,
+				8A6B39CD23089CC889803ED2D617049C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F8139298C07F70ABB8253F08DBAFBB /* Build configuration list for PBXNativeTarget "Pods-Pods-CustomSampleSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BB2A0B72FC9971BD5132899E1891F7 /* Debug */,
+				D49047EAED2D95E2DEC92D425EEA2A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89440E8478E372B27FB08ECA2098DB88 /* Build configuration list for PBXAggregateTarget "CashfreePGUISDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9E21B8FC06A6D1FF214BAF6F251013 /* Debug */,
+				F8692F4DFD54D81EF08A6852B8FF4188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDCE628B8A192A9AEAF56067AE664A /* Build configuration list for PBXAggregateTarget "CashfreePGCoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7043FB470EF392CCBEA3FC37873D24C9 /* Debug */,
+				049D375988551106A45440D57EF61625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2B976C918B395020DC05B19A56B562 /* Build configuration list for PBXAggregateTarget "CashfreeAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CC96106F4CBE5930CFA5E843D9585B /* Debug */,
+				A772815AF690C18EBF26DA5EC4CF2786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD661783075DED1ABD6B8ACF928E65F4 /* Build configuration list for PBXNativeTarget "Pods-Pods-CustomSampleSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7BC4F927C54215CEC75D1EF4580A74 /* Debug */,
+				15738C2BDC8FBA0833EDC629AAB435E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B94D2AA4C2907B52088A40F9DC2E05 /* Build configuration list for PBXAggregateTarget "CFNetworkSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2879AF5AC529FB2801942F67C61AC29 /* Debug */,
+				986B3C2B8CECE5471DCD506E57F296C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC022E4E37E1F48B5FE50ECF39643349 /* Build configuration list for PBXNativeTarget "Pods-CustomSampleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C71DE22A1681E6AF4F4DBC8BEB1157 /* Debug */,
+				340D9C86145AD0D659EBA0F5E2D3E8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
